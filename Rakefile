@@ -3,4 +3,6 @@
 
 require_relative 'config/application'
 
+lesson7
 Rails.application.load_tasks
+main

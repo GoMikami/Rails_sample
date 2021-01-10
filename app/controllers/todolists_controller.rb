@@ -21,12 +21,13 @@ class TodolistsController < ApplicationController
   def edit
     @list = List.find(params[:id])
   end
+lesson7
   def update
     list = List.find(params[:id])
     list.update(list_params)
     redirect_to todolist_path(list.id)
   end
-
+  main
   private
   def list_params
     params.require(:list).permit(:title, :body, :image)
