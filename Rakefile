@@ -2,7 +2,4 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative 'config/application'
-
-lesson7
 Rails.application.load_tasks
-main
